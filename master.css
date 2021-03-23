@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body div{
+  /* background-color: black; */
+}
+
+div input{
+  width: 20%;
+  margin-right: 50px
+}
+
+div.container{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

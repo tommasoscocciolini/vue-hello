@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <link rel="stylesheet" href="./master.css">
+  <title>Vue Intro</title>
+</head>
+<body>
+  <div id="root">
+    <div class="container">
+
+      <input v-model="message">
+      <h1>{{message}}</h1>
+    </div>
+    <div class="container">
+
+      <input v-model="image">
+      <img v-bind:src="image">
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <script src="./main.js" charset="utf-8"></script>
+</body>
+</html>
